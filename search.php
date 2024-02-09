@@ -1,5 +1,5 @@
 <?php
-    $servername = "purebeauty-server";
+    $servername = "purebeauty-server.mysql.database.azure.com";
     $username = "qrgmzwjmgb";
     $password = "438X8VRAXI5OV7X6$";
     $dbname = "purebeauty-database"; 
