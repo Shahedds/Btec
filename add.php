@@ -16,8 +16,8 @@
      
         // collect value of input field
         
-        $PName = $_REQUEST['Name'];
-        $Price = $_REQUEST['Price'];
+        $PName = $_REQUEST['PName'];
+        $Price = $_REQUEST['PPrice'];
         $CatID = $_REQUEST['CatID'];
         
         
