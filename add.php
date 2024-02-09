@@ -1,8 +1,8 @@
 <?php
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "betecdb"; 
+    $servername = "purebeauty-server";
+    $username = "qrgmzwjmgb";
+    $password = "438X8VRAXI5OV7X6$";
+    $dbname = "purebeauty-database"; 
       
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
