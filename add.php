@@ -16,12 +16,12 @@
      
         // collect value of input field
         
-        $Name = $_REQUEST['Name'];
+        $PName = $_REQUEST['Name'];
         $Price = $_REQUEST['Price'];
         $CatID = $_REQUEST['CatID'];
         
         
-        $sqlquery = "INSERT INTO products (PName, PPrice, CatID) VALUES ('$Name','$Price' ,'$CatID')";
+        $sqlquery = "INSERT INTO products (PName, PPrice, CatID) VALUES ('$PName','$Price' ,'$CatID')";
         
         if ($conn->query($sqlquery) == TRUE) {
             echo "Product inserted successfully";
